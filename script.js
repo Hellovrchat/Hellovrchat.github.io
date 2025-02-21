@@ -9,9 +9,9 @@ document.getElementById("prevBtn").addEventListener("click", function() {
 
 let currentIndex = 0;
 const images = [
-    "files/18.png", 
-    "files/1.png", 
-    "files/2.png"
+    "files/18.webp", 
+    "files/1.webp", 
+    "files/2.webp"
 ];
 
 function changeImage(direction) {
