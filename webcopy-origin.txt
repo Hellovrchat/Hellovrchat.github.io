@@ -1,0 +1,32 @@
+Uri: https://hellovrchaterp.com/
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\index.htm
+Content Type: text/html
+
+Uri: https://hellovrchaterp.com/styles.css
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\styles.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Raleway:wght@600;900&display=swap
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\css2.css
+Content Type: text/css
+
+Uri: https://cdn.discordapp.com/attachments/1334972843582292062/1337369643647762514/VRChat_Vibesync_Erp_Mode_1.1.0.zip?ex=67a7daca&is=67a6894a&hm=aa11c88079d36fe1ef80b7059c86304dc00ce60958ac8e86290cb87617b58ceb&
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\attachments\1334972843582292062\1337369643647762514\VRChat_Vibesync_Erp_Mode_1.1.0.zip
+Content Type: application/zip
+
+Uri: https://hellovrchaterp.com/files/logo.webp
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\files\logo.webp
+Content Type: image/webp
+
+Uri: https://hellovrchaterp.com/files/18.webp
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\files\18.webp
+Content Type: image/webp
+
+Uri: https://hellovrchaterp.com/files/1.webp
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\files\1.webp
+Content Type: image/webp
+
+Uri: https://hellovrchaterp.com/files/2.webp
+File Name: C:\Users\Bertug\Documents\hellovrchaterp.com\files\2.webp
+Content Type: image/webp
+
