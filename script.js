@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const bugDetails = feedbackText.value.trim();
     if (bugDetails) {
       // Kullanıcı bir şey yazdıysa mailto linkiyle mail istemcisini açalım
-      window.location.href = `mailto:hellovrchat11@gmail.com?subject=Bug%20Report&body=${encodeURIComponent(
+      window.location.href = `mailto:hellovrchaterp@gmail.com?subject=Bug%20Report&body=${encodeURIComponent(
         bugDetails
       )}`;
     }
