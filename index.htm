@@ -1,110 +1,302 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VRChat VibeSync - The Ultimate VR Experience</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="css2.css?family=Roboto:wght@300;400;700&family=Raleway:wght@600;900&display=swap" rel="stylesheet">
-    
-    <meta property="og:title" content="VRChat VibeSync - The Ultimate VR Experience">
-    <meta property="og:description" content="Immerse Yourself in a World of Emotions with VRChat VibeSync. Feel your avatar's emotions in VR like never before.">
-    <meta property="og:image" content="./files/logo.png">
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VRChat VibeSync - The Ultimate VR Experience</title>
+  <!-- Birinci CSS: Eklemelerimizi de içeren stil dosyası -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- İkinci CSS: Font-face ve genel ayarlar -->
+  <link
+    href="css2.css?family=Roboto:wght@300;400;700&family=Raleway:wght@600;900&display=swap"
+    rel="stylesheet"
+  />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="VRChat VibeSync - The Ultimate VR Experience">
-    <meta name="twitter:description" content="Experience a new level of VRChat immersion with VibeSync. Sync your emotions with your avatar in a futuristic VR world.">
-    <meta name="twitter:image" content="./files/logo.png">
+  <meta property="og:title" content="VRChat VibeSync - The Ultimate VR Experience" />
+  <meta
+    property="og:description"
+    content="Immerse Yourself in a World of Emotions with VRChat VibeSync. Feel your avatar's emotions in VR like never before."
+  />
+  <meta property="og:image" content="./files/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VRChat VibeSync - The Ultimate VR Experience" />
+  <meta
+    name="twitter:description"
+    content="Experience a new level of VRChat immersion with VibeSync. Sync your emotions with your avatar in a futuristic VR world."
+  />
+  <meta name="twitter:image" content="./files/logo.png" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="files/logo.png" alt="VRChat VibeSync Logo" class="logo">
-            <h1>VRChat VibeSync</h1>
-            <p>Immerse Yourself in a World of Emotions</p>
-            <a href="/attachments/1320338434942046250/1339247012079468564/VRChat_Vibesync_Erp_Mode.zip" download="" class="cta-button">Download Now</a>
-        </div>
-    </header>
+  <!-- ÜST NAV BAR (Tema Toggle + Navigasyon Butonları) -->
+  <nav class="top-nav" role="navigation" aria-label="Main Navigation">
+    <!-- Sol kısım: Tema butonu (Ay/Güneş) -->
+    <div class="nav-left">
+      <button
+        id="themeToggleButton"
+        class="theme-toggle-btn"
+        aria-label="Toggle Theme"
+      >
+        <span class="moon-icon">🌙</span>
+      </button>
+    </div>
+    <!-- Sağ kısım: Küçük yönlendirme butonları -->
+    <div class="nav-right">
+      <button class="nav-btn" id="homeBtn" aria-label="Scroll to Home">Home</button>
+      <button
+        class="nav-btn"
+        id="featuresBtn"
+        aria-label="Scroll to Key Features"
+      >
+        Key Features
+      </button>
+      <button
+        class="nav-btn"
+        id="downloadBtn"
+        aria-label="Scroll to Download section"
+      >
+        Download
+      </button>
+      <button
+        class="nav-btn"
+        id="disclaimersBtn"
+        aria-label="Scroll to Disclaimers &amp; Safety"
+      >
+        Disclaimers &amp; Safety
+      </button>
+    </div>
+  </nav>
 
-    <section id="gallery">
-        <div class="container">
-            <h2>In-Game Gallery</h2>
-            <div class="gallery-wrapper">
-                <img id="leftImage" class="blurred" src="files/18.png" alt="Left Image">
-                <img id="centerImage" class="center" src="files/1.png" alt="Center Image">
-                <img id="rightImage" class="blurred" src="files/2.png" alt="Right Image">
-            </div>
-            <button id="prevBtn" class="nav-button">&#10094;</button>
-            <button id="nextBtn" class="nav-button">&#10095;</button>
-        </div>
-    </section>
+  <!-- HEADER (REVEAL) -->
+  <header class="reveal">
+    <div class="container">
+      <img src="files/logo.png" alt="VRChat VibeSync Logo" class="logo" />
+      <h1>VRChat VibeSync</h1>
+      <p>Immerse Yourself in a World of Emotions</p>
+      <a
+        href="/attachments/1340622518599422043/1342903097369956422/VRChat_Vibesync_Erp_Mode.zip"
+        download=""
+        class="cta-button"
+      >
+        Download Now
+      </a>
+    </div>
+  </header>
 
-    <section id="story">
-        <div class="container">
-            <h2>The Story Behind VibeSync</h2>
-            <p>
-                VibeSync transforms your VRChat experience, letting you feel the emotions of your avatar as you navigate through vibrant, futuristic worlds. 
-                With cutting-edge technology, VibeSync brings your avatar’s feelings to life, allowing you to connect with others on a whole new level.
-            </p>
-        </div>
-    </section>
+  <!-- GALERİ BÖLÜMÜ (REVEAL) -->
+  <section id="gallery" class="reveal">
+    <div class="container">
+      <h2>In-Game Gallery</h2>
+      <div class="gallery-wrapper">
+        <button id="prevBtn" class="nav-button">&#10094;</button>
+        <img
+          id="leftImage"
+          class="blurred"
+          src="files/18.png"
+          alt="Left Image"
+        />
+        <img
+          id="centerImage"
+          class="center"
+          src="files/1.png"
+          alt="Center Image"
+        />
+        <img
+          id="rightImage"
+          class="blurred"
+          src="files/2.png"
+          alt="Right Image"
+        />
+        <button id="nextBtn" class="nav-button">&#10095;</button>
+      </div>
+    </div>
+  </section>
 
-    <section id="features">
-        <div class="container">
-            <h2>Key Features</h2>
-            <div class="feature-grid">
-                <div class="feature-item">🔄 Emotion Synchronization</div>
-                <div class="feature-item">🎨 Customizable Experiences</div>
-                <div class="feature-item">💬 Discord Integration</div>
-                <div class="feature-item">🚀 Real-Time Support</div>
-            </div>
-        </div>
-    </section>
+  <!-- HİKAYE BÖLÜMÜ (REVEAL) -->
+  <section id="story" class="reveal">
+    <div class="container">
+      <h2>The Story Behind VibeSync</h2>
+      <p>
+        VibeSync transforms your VRChat experience, letting you feel the emotions
+        of your avatar as you navigate through vibrant, futuristic worlds.
+        With cutting-edge technology, VibeSync brings your avatar’s feelings to life,
+        allowing you to connect with others on a whole new level.
+      </p>
+    </div>
+  </section>
 
-    <section id="pose-controls">
-        <div class="container">
-            <h2>Pose Controls & Key Combinations</h2>
-            <p>Access various poses and intimate scenarios using the following key combinations (Num Lock must be enabled):</p>
-            <div class="pose-combinations">
-                <div class="combination">NumLock 4 6 - Doggy Position</div>
-                <div class="combination">NumLock 8 2 - Passionate Kiss</div>
-                <div class="combination">NumLock 6 4 - Embrace on Sofa</div>
-                <div class="combination">NumLock 2 8 - Fantasy Outfit Change</div>
-                <div class="combination">NumLock 5 - Romantic Dance</div>
-                <div class="combination">NumLock 1 2 - Intimate Whisper</div>
-                <div class="combination">NumLock 7 3 - Wall Lean Kiss</div>
-                <div class="combination">NumLock 3 9 - Shower Fun</div>
-                <div class="combination">NumLock 9 5 - Fireplace Passion</div>
-                <div class="combination">NumLock 0 3 - Tabletop Interaction</div>
-                <div class="combination">NumLock 1 5 - Lift & Spin Hug</div>
-                <div class="combination">NumLock 6 4 - Romantic Bed Scene</div>
-                <div class="combination">NumLock 7 9 - Fantasy Roleplay</div>
-                <div class="combination">NumLock 9 2 - Sensual Back Massage</div>
-                <div class="combination">NumLock 8 6 - Surprise Pose</div>
-            </div>
-        </div>
-    </section>
+  <!-- ÖZELLİKLER BÖLÜMÜ (REVEAL) -->
+  <section id="features" class="reveal">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="feature-grid">
+        <div class="feature-item">🔄 Emotion Synchronization</div>
+        <div class="feature-item">🎨 Customizable Experiences</div>
+        <div class="feature-item">💬 Discord Integration</div>
+        <div class="feature-item">🚀 Real-Time Support</div>
+        <div class="feature-item">🔊 3D Spatial Audio</div>
+        <div class="feature-item">💑 Advanced ERP Animations</div>
+      </div>
+    </div>
+  </section>
 
-    
-        <div class="container">
-            <h2>Get Started with VibeSync</h2>
-            <p>Download the mod and follow the steps below to fully integrate VibeSync into your VRChat experience:</p>
-            <ol>
-                <li>Download the mod file from our website.</li>
-                <li>Unzip the file and run the installer.</li>
-                <li>Activate VibeSync in VRChat settings and enjoy!</li>
-            </ol>
-            <a href="/attachments/1320338434942046250/1339247012079468564/VRChat_Vibesync_Erp_Mode.zip" download="" class="cta-button">Download Now</a>
-        </div>
-    
+  <!-- POSE CONTROLS BÖLÜMÜ (REVEAL) -->
+  <section id="pose-controls" class="reveal">
+    <div class="container">
+      <h2>Pose Controls & Key Combinations</h2>
+      <p>
+        Access various poses and intimate scenarios using the following key
+        combinations (Num Lock must be enabled):
+      </p>
+      <div class="pose-combinations">
+        <div class="combination">NumLock 4 6 - Doggy Position</div>
+        <div class="combination">NumLock 8 2 - Passionate Kiss</div>
+        <div class="combination">NumLock 6 4 - Embrace on Sofa</div>
+        <div class="combination">NumLock 2 8 - Fantasy Outfit Change</div>
+        <div class="combination">NumLock 5 - Romantic Dance</div>
+        <div class="combination">NumLock 1 2 - Intimate Whisper</div>
+        <div class="combination">NumLock 7 3 - Wall Lean Kiss</div>
+        <div class="combination">NumLock 3 9 - Shower Fun</div>
+        <div class="combination">NumLock 9 5 - Fireplace Passion</div>
+        <div class="combination">NumLock 0 3 - Tabletop Interaction</div>
+        <div class="combination">NumLock 1 5 - Lift & Spin Hug</div>
+        <div class="combination">NumLock 6 4 - Romantic Bed Scene</div>
+        <div class="combination">NumLock 7 9 - Fantasy Roleplay</div>
+        <div class="combination">NumLock 9 2 - Sensual Back Massage</div>
+        <div class="combination">NumLock 8 6 - Surprise Pose</div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 VRChat VibeSync. Your gateway to the ultimate VR experience.</p>
-        </div>
-    </footer>
+  <!-- GET STARTED BÖLÜMÜ (REVEAL) -->
+  <section id="get-started" class="reveal">
+    <div class="container">
+      <h2>Get Started with VibeSync</h2>
+      <p>
+        Download the mod and follow the steps below to fully integrate VibeSync
+        into your VRChat experience:
+      </p>
+      <ol>
+        <li>Download the mod file from our website.</li>
+        <li>Unzip the file and run the installer.</li>
+        <li>Activate VibeSync in VRChat settings and enjoy!</li>
+      </ol>
+      <a
+        href="/attachments/1340622518599422043/1342903097369956422/VRChat_Vibesync_Erp_Mode.zip"
+        download=""
+        class="cta-button"
+      >
+        Download Now
+      </a>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- ADVANCED ERP FEATURES BÖLÜMÜ (REVEAL) -->
+  <section id="advanced-erp-features" class="reveal">
+    <div class="container">
+      <h2>Advanced ERP Features (VRChat ERP)</h2>
+      <ul class="erp-feature-list">
+        <li>
+          <strong>Integrated VRChat ERP Controls:</strong>
+          Seamlessly manage ERP actions directly within VRChat.
+        </li>
+        <li>
+          <strong>Consent-Based Interaction System:</strong>
+          Ensure all ERP interactions are consensual and safe.
+        </li>
+        <li>
+          <strong>Real-Time ERP Animation Sync:</strong>
+          Synchronize ERP animations with VRChat triggers.
+        </li>
+        <li>
+          <strong>Customizable Roleplay Environments:</strong>
+          Tailor your ERP experience with VRChat-specific settings.
+        </li>
+        <li>
+          <strong>Enhanced Avatar Expression:</strong>
+          Experience dynamic ERP features that adapt to your mood.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DISCLAIMERS & SAFETY BÖLÜMÜ (REVEAL) -->
+  <section id="disclaimers" class="reveal">
+    <div class="container">
+      <h2>Disclaimers &amp; Safety</h2>
+      <p>
+        VibeSync ERP Mode is intended for consenting adults (18+). Always respect
+        boundaries, use safe words, and ensure all participants are comfortable.
+        This mod does not tolerate harassment or non-consensual behavior.
+      </p>
+      <p>
+        By using VibeSync ERP Mode, you agree to our terms of service and confirm
+        that you are of legal age in your jurisdiction.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ BÖLÜMÜ (REVEAL) -->
+  <section id="faq" class="reveal" aria-labelledby="faq-heading">
+    <div class="container">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+
+      <details>
+        <summary>How to install the mod?</summary>
+        <p>
+          Follow the steps in the <strong>Get Started</strong> section above. Make
+          sure you have NumLock enabled for pose combinations.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is ERP safe and allowed?</summary>
+        <p>
+          All participants must be consenting adults (18+). Please read the
+          <strong>Disclaimers &amp; Safety</strong> section for more information.
+        </p>
+      </details>
+
+      <details>
+        <summary>What if I encounter a bug?</summary>
+        <p>
+          If you encounter a bug, please use the <strong>Feedback</strong> button
+          at the bottom of this page to send us details</strong>.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 VRChat VibeSync. Your gateway to the ultimate VR experience.</p>
+      <!-- FEEDBACK BUTONU -->
+      <button id="feedbackBtn" class="feedback-button">Send Feedback</button>
+    </div>
+  </footer>
+
+  <!-- FEEDBACK MODAL (Mail Gönderme) -->
+  <div id="feedbackModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle">
+    <div class="modal-content">
+      <h2 id="feedbackTitle">Send Feedback</h2>
+      <p>Please describe the bug you encountered:</p>
+      <textarea
+        id="feedbackText"
+        placeholder="Write your bug details here..."
+        rows="5"
+        aria-label="Bug details"
+      ></textarea>
+      <div class="modal-buttons">
+        <button id="sendFeedbackBtn">Send</button>
+        <button id="closeFeedbackBtn">Close</button>
+      </div>
+      </p>
+    </div>
+  </div>
+
+  <!-- JS Dosyası -->
+  <script src="script.js"></script>
 </body>
 </html>
